@@ -1,0 +1,4 @@
+2026-11-01T06:07:23+00:00 DEBUG #5751.WC - [New Request] POST /simso/ @ 06:07:18.991
+2026-11-01T06:07:23+00:00 ERROR #5751.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-01T06:07:36+00:00 DEBUG #8847.WC - [New Request] POST /simso/ @ 06:07:32.923
+2026-11-01T06:07:36+00:00 ERROR #8847.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
