@@ -1,0 +1,33 @@
+2026-11-04T01:43:16+00:00 DEBUG #9903.WC - [New Request] POST /simso/ @ 01:43:08.576
+2026-11-04T01:43:16+00:00 ERROR #9903.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-04T01:43:29+00:00 DEBUG #3881.WC - [New Request] POST /simso/ @ 01:43:21.565
+2026-11-04T01:43:29+00:00 ERROR #3881.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-04T01:44:00+00:00 DEBUG #5831.WC - [New Request] POST /simso/ @ 01:43:52.965
+2026-11-04T01:44:00+00:00 ERROR #5831.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-04T01:45:44+00:00 DEBUG #4982.WC - [New Request] POST /simso/ @ 01:45:36.786
+2026-11-04T01:45:44+00:00 ERROR #4982.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-04T01:45:58+00:00 DEBUG #3363.WC - [New Request] POST /simso/ @ 01:45:50.806
+2026-11-04T01:45:58+00:00 ERROR #3363.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-04T01:46:10+00:00 DEBUG #8286.WC - [New Request] POST /simso/ @ 01:46:02.834
+2026-11-04T01:46:10+00:00 ERROR #8286.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-04T01:46:29+00:00 DEBUG #8579.WC - [New Request] POST /simso/ @ 01:46:22.203
+2026-11-04T01:46:29+00:00 ERROR #8579.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-04T01:47:38+00:00 DEBUG #9534.WC - [New Request] POST /simso/ @ 01:47:30.874
+2026-11-04T01:47:38+00:00 ERROR #9534.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-04T01:47:50+00:00 DEBUG #4757.WC - [New Request] POST /simso/ @ 01:47:43.357
+2026-11-04T01:47:50+00:00 ERROR #4757.WC - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-11-04T01:56:57+00:00 DEBUG #4176 - [New Request] GET /simso/wp-admin/plugins.php @ 01:56:50.072
+2026-11-04T01:56:57+00:00 DEBUG #4176 - Webhook lock acquired for 'unregister'.
+2026-11-04T01:56:57+00:00 DEBUG #4176 - Webhook operation 'unregister' started.
+2026-11-04T01:56:59+00:00 DEBUG #4176 - GET https://api.woocommerce.com/integrations/ppc/v1/notifications/webhooks
+Response: Array
+(
+    [code] => 404
+    [message] => Not Found
+)
+
+Response Body: {"statusCode":404,"error":"Not Found","message":"Not Found"}
+
+2026-11-04T01:56:59+00:00 ERROR #4176 - Failed to delete webhooks: [Error] Not Found
+2026-11-04T01:56:59+00:00 INFO #4176 - Webhooks deleted.
+2026-11-04T01:56:59+00:00 DEBUG #4176 - Webhook lock released for 'unregister'.

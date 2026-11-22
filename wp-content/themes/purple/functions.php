@@ -88,6 +88,8 @@ if ( ! function_exists( 'purple_register_pattern_categories' ) ) :
 	/**
 	 * Register the "Purple" block pattern category so the theme's
 	 * internally-used patterns can be grouped together in the inserter.
+	 *
+	 * @return void
 	 */
 	function purple_register_pattern_categories() {
 		register_block_pattern_category(
@@ -117,7 +119,6 @@ if ( ! function_exists( 'purple_get_woocommerce_stylesheets' ) ) :
 		}
 
 		$stylesheets = array(
-			'11.2.0' => 'assets/css/woocommerce-11.1.css',
 			'11.3.0' => 'assets/css/woocommerce-11.2.css',
 		);
 
