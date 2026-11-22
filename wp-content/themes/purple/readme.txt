@@ -1,9 +1,9 @@
 === Purple ===
 Contributors: Automattic
 Requires at least: 7.1
-Tested up to: 7.1
+Tested up to: 7.2
 Requires PHP: 7.4
-Stable tag: 1.0.3
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,11 +16,18 @@ Purple is a WooCommerce starter theme made for the Site Editor and modern commer
 Purple requires:
 - WordPress 7.1 or newer,
 - PHP 7.4 or newer,
-- WooCommerce 11.1 or newer.
+- WooCommerce 11.2 or newer.
 
 Install and activate WooCommerce before activating the theme.
 
 == Changelog ==
+
+= 1.1.0 =
+* Update Hero with text and one button, and Heading, image and list of features patterns (#70019)
+* Make 'Four columns of store features with icons' pattern better adapt to different viewport sizes (#70739)
+* Add minimalistic select element styles (#70794)
+* Make Featured Product inner blocks inherit color from the parent
+* Purple: declare WooCommerce 11.3 compatibility (#71001)
 
 = 1.0.3 =
 * Purple: declare WooCommerce 11.2 compatibility (#476)
@@ -67,56 +74,56 @@ GNU General Public License for more details.
 == Fonts ==
 
 Crimson Pro
-License: Licensed under SIL Open Font License, 1.1 
+License: Licensed under SIL Open Font License, 1.1
 License URI: https://scripts.sil.org/OFL
 Source: https://fonts.google.com/specimen/Crimson+Pro
 
 Figtree
-License: Licensed under SIL Open Font License, 1.1 
+License: Licensed under SIL Open Font License, 1.1
 License URI: https://scripts.sil.org/OFL
 Source: https://fonts.google.com/specimen/Figtree
 
 Fraunces
-License: Licensed under SIL Open Font License, 1.1 
+License: Licensed under SIL Open Font License, 1.1
 License URI: https://scripts.sil.org/OFL
 Source: https://fonts.google.com/specimen/Fraunces
 
 Inter Font
-License: Licensed under SIL Open Font License, 1.1 
+License: Licensed under SIL Open Font License, 1.1
 License URI: https://scripts.sil.org/OFL
 Source: https://fonts.google.com/specimen/Inter
 
 Jost
-License: Licensed under SIL Open Font License, 1.1 
+License: Licensed under SIL Open Font License, 1.1
 License URI: https://scripts.sil.org/OFL
 Source: https://fonts.google.com/specimen/Jost
 
 Libre Baskerville
-License: Licensed under SIL Open Font License, 1.1 
+License: Licensed under SIL Open Font License, 1.1
 License URI: https://scripts.sil.org/OFL
 Source: https://fonts.google.com/specimen/Libre+Baskerville
 
 
 Source Serif 4
-License: Licensed under SIL Open Font License, 1.1 
+License: Licensed under SIL Open Font License, 1.1
 License URI: https://scripts.sil.org/OFL
 Source: https://fonts.google.com/specimen/Source+Serif+4
 
 SUSE Mono
-License: Licensed under SIL Open Font License, 1.1 
+License: Licensed under SIL Open Font License, 1.1
 License URI: https://scripts.sil.org/OFL
 Source: https://fonts.google.com/specimen/SUSE+Mono
 
 
 Uncut Sans
-License: Licensed under SIL Open Font License, 1.1 
+License: Licensed under SIL Open Font License, 1.1
 License URI: https://scripts.sil.org/OFL
 Source: https://uncut.wtf/sans-serif/uncut-sans.html
 
 
 == Images ==
 
-Theme screenshot, icon and logo images 
+Theme screenshot, icon and logo images
 Author: Beatriz Fialho
 License: CC0 1.0 Universal
 License URI: https://creativecommons.org/publicdomain/zero/1.0/
